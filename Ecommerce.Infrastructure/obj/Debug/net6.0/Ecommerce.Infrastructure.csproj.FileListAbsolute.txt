@@ -1,0 +1,17 @@
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Infrastructure.deps.json
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Infrastructure.runtimeconfig.json
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Infrastructure.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Infrastructure.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Core.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Core.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.csproj.AssemblyReference.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.AssemblyInfoInputs.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.AssemblyInfo.cs
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.csproj.CopyComplete
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\refint\Ecommerce.Infrastructure.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.genruntimeconfig.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\ref\Ecommerce.Infrastructure.dll

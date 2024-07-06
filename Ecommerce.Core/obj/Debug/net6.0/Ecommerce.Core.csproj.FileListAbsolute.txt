@@ -1,0 +1,11 @@
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\bin\Debug\net6.0\Ecommerce.Core.deps.json
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\bin\Debug\net6.0\Ecommerce.Core.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\bin\Debug\net6.0\Ecommerce.Core.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.AssemblyInfoInputs.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.AssemblyInfo.cs
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.csproj.CoreCompileInputs.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\refint\Ecommerce.Core.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\ref\Ecommerce.Core.dll
