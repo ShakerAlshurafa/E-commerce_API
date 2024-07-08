@@ -41,6 +41,26 @@ namespace Ecommerce.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Devices and gadgets",
+                            Name = "Electronics"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Books and literature",
+                            Name = "Books"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Apparel and accessories",
+                            Name = "Clothing"
+                        });
                 });
 
             modelBuilder.Entity("Ecommerce.Core.Entities.LocalUser", b =>
@@ -74,6 +94,26 @@ namespace Ecommerce.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("localUsers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "Ahmad@gmail.com",
+                            Name = "Ahmed Haggag",
+                            Password = "password123",
+                            Phone = "0568752124",
+                            Role = "Admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "Tarek@gmail.com",
+                            Name = "Tarek Sharim",
+                            Password = "password456",
+                            Phone = "0598752324",
+                            Role = "User"
+                        });
                 });
 
             modelBuilder.Entity("Ecommerce.Core.Entities.Order", b =>
@@ -99,6 +139,29 @@ namespace Ecommerce.Infrastructure.Migrations
                     b.HasIndex("LocalUserId");
 
                     b.ToTable("orders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            LocalUserId = 1,
+                            OrderDate = new DateTime(2023, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderStatus = "Pending"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            LocalUserId = 2,
+                            OrderDate = new DateTime(2023, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderStatus = "Completed"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            LocalUserId = 1,
+                            OrderDate = new DateTime(2023, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderStatus = "Shipped"
+                        });
                 });
 
             modelBuilder.Entity("Ecommerce.Core.Entities.OrderDetails", b =>
@@ -125,6 +188,48 @@ namespace Ecommerce.Infrastructure.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("orderDetails");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ProductId = 1,
+                            OrderId = 1,
+                            Price = 299.99m,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ProductId = 4,
+                            OrderId = 1,
+                            Price = 9.99m,
+                            Quantity = 2m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ProductId = 3,
+                            OrderId = 2,
+                            Price = 19.99m,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ProductId = 2,
+                            OrderId = 3,
+                            Price = 799.99m,
+                            Quantity = 1m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ProductId = 5,
+                            OrderId = 3,
+                            Price = 9.99m,
+                            Quantity = 1m
+                        });
                 });
 
             modelBuilder.Entity("Ecommerce.Core.Entities.Product", b =>
@@ -153,6 +258,48 @@ namespace Ecommerce.Infrastructure.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            Image = "smartphone.jpg",
+                            Name = "Smartphone",
+                            Price = 299.99m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 1,
+                            Image = "laptop.jpg",
+                            Name = "Laptop",
+                            Price = 799.99m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            Image = "novel.jpg",
+                            Name = "Novel",
+                            Price = 19.99m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 3,
+                            Image = "tshirt.jpg",
+                            Name = "T-Shirt",
+                            Price = 9.99m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 3,
+                            Image = "jeans.jpg",
+                            Name = "Jeans",
+                            Price = 49.99m
+                        });
                 });
 
             modelBuilder.Entity("Ecommerce.Core.Entities.Order", b =>

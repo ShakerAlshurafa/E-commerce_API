@@ -70,3 +70,4 @@ D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\obj\De
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\obj\Debug\net6.0\ref\Ecommerce.dll
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\Humanizer.dll
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\obj\Debug\net6.0\Ecommerce.sourcelink.json
