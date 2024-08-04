@@ -14,9 +14,9 @@ namespace Ecommerce.Core.Entities
         public string? Image { get; set; }
 
         public int CategoryId { get; set; }
-        public Category? Category { get; set; }
+        public virtual Category? Category { get; set; }
 
-        public ICollection<OrderDetails>? OrderDetails { get; set;} = new HashSet<OrderDetails>();
+        public virtual ICollection<OrderDetails>? OrderDetails { get; set;} = new HashSet<OrderDetails>();
 
     }
 }

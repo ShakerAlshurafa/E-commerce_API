@@ -17,7 +17,7 @@ namespace Ecommerce.Core.Entities
         public decimal Price { get; set; }
         public decimal Quantity { get; set; }
 
-        public Order? Order { get; set; }
-        public Product Products { get; set; }
+        public virtual Order? Order { get; set; }
+        public virtual Product Products { get; set; }
     }
 }

@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,9 +36,36 @@ namespace Ecommerce.Infrastructure.Repositories
             return false;
         }
 
-        public async Task<IEnumerable<T>> GetAll()
+        public async Task<IEnumerable<T>> GetAll(int page_size = 2, int page_number = 1, string? includeProperty = null, Expression<Func<T,bool>> filter = null)
         {
-            return await dbContext.Set<T>().ToListAsync();
+            //if (typeof(T) == typeof(Product))
+            //{
+            //    var model = await dbContext.products.Include(x => x.Category).ToListAsync();
+            //    return (IEnumerable<T>) model;
+            //}
+            //return await dbContext.Set<T>().ToListAsync();
+
+            IQueryable<T> query = dbContext.Set<T>();
+            if(filter != null)
+            {
+                query = query.Where(filter); 
+            }
+            if(includeProperty != null)
+            {
+                foreach (var property in includeProperty.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(property);
+                }
+            }
+            if(page_size > 0)
+            {
+                if(page_size > 4)
+                {
+                    page_size = 4;
+                }
+                query = query.Skip(page_size * (page_number - 1)).Take(page_size);
+            }
+            return await query.ToListAsync();
         }
 
         public async Task<T> GetById(int id)

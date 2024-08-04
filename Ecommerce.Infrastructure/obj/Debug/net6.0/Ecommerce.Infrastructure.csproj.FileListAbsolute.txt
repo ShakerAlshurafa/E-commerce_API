@@ -16,3 +16,5 @@ D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infras
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.genruntimeconfig.cache
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\ref\Ecommerce.Infrastructure.dll
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\obj\Debug\net6.0\Ecommerce.Infrastructure.sourcelink.json
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Services.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Infrastructure\bin\Debug\net6.0\Ecommerce.Services.pdb

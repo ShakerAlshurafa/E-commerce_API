@@ -9,6 +9,6 @@ namespace Ecommerce.Core.IRepositories
 {
     public interface IProductRepository : IGenericRepository<Product>
     {
-        
+        public Task<IEnumerable<Product>> GetAllProductsByCategory(int categoryId);
     }
 }

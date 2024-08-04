@@ -1,0 +1,16 @@
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\bin\Debug\net6.0\Ecommerce.Services.deps.json
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\bin\Debug\net6.0\Ecommerce.Services.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\bin\Debug\net6.0\Ecommerce.Services.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\bin\Debug\net6.0\Ecommerce.Core.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\bin\Debug\net6.0\Ecommerce.Core.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.csproj.AssemblyReference.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.AssemblyInfoInputs.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.AssemblyInfo.cs
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.csproj.CoreCompileInputs.cache
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.sourcelink.json
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.csproj.CopyComplete
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\refint\Ecommerce.Services.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\Ecommerce.Services.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Services\obj\Debug\net6.0\ref\Ecommerce.Services.dll

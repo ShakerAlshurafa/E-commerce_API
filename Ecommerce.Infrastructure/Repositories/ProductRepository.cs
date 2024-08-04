@@ -19,6 +19,37 @@ namespace Ecommerce.Infrastructure.Repositories
             this.dbContext = dbContext;
         }
 
-        
+        public async Task<IEnumerable<Product>> GetAllProductsByCategory(int categoryId)
+        {
+            //// [ eager loading ]
+            ////
+            //var products = (IEnumerable<Product>)await dbContext.products.Include(p => p.Category)
+            //    .Where(c => c.CategoryId == categoryId)
+            //    .ToListAsync();
+            //return products;
+
+
+            //// [ Explicit Loading ]
+            ///
+            //var products = await dbContext.products
+            //    .Where(c => c.CategoryId == categoryId)
+            //    .ToListAsync();
+            //foreach (var product in products)
+            //{
+            //    await dbContext.Entry(product).Reference(r => r.Category).LoadAsync();
+            //}
+            //return products;
+
+
+            //// [Lazy Loading]
+            //// download lazy pakage --> proxies
+            //// in program.cs add (UseLazyLoadingProxies) after "DefaultConnection"
+            //// add virtual before navigational property
+
+            var products = await dbContext.Products
+                .Where(c => c.CategoryId == categoryId)
+                .ToArrayAsync();
+            return products;
+        }
     }
 }

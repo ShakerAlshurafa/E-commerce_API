@@ -10,3 +10,4 @@ D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\o
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.pdb
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\ref\Ecommerce.Core.dll
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.sourcelink.json
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce.Core\obj\Debug\net6.0\Ecommerce.Core.csproj.AssemblyReference.cache
