@@ -84,3 +84,9 @@ D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\De
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\Ecommerce.Services.dll
 D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\Ecommerce.Services.pdb
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\MailKit.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\MimeKit.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Web\Full-Stack\Back-end\API\code\Onion Arcitecture\Ecommerce\Ecommerce\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll

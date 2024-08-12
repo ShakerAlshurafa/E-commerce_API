@@ -47,6 +47,13 @@ namespace Ecommerce
             builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
             builder.Services.AddScoped(typeof(ITokenService), typeof(TokenService));
 
+            builder.Services.AddTransient<IEmailService, EmailService>();
+
+            builder.Services.Configure<DataProtectionTokenProviderOptions>(options =>
+            {
+                options.TokenLifespan = TimeSpan.FromMinutes(15);
+            });
+
             builder.Services.AddAutoMapper(typeof(MappingProfile));
 
             //builder.Services.AddScoped(typeof(UserManager<LocalUser>));
@@ -64,7 +71,8 @@ namespace Ecommerce
                     options.Password.RequiredUniqueChars = 0;
                     options.Password.RequireNonAlphanumeric = false;
                 })
-                .AddEntityFrameworkStores<AppDbContext>();
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
 
 
 
